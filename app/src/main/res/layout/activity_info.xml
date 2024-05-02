@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="#F5EFE6">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:text="About Us
+
+Who are We?
+
+Welcome! We are a platform that brings together food lovers called Where's the Best. We enjoy hosting everyone who loves to discover new foods.
+Our aim is to provide individuals with a platform to discover their favorite recipes and inspire them with mouth-watering dishes. At Where's the Best, we serve foods from many cultures to expand people's palates and encourage everyone to try them.
+We have something to offer everyone, from experienced chefs to novice cooks. You can communicate with other food enthusiasts by becoming a member of our community.
+                     \n \n            Contact Us
+If you have any questions, suggestions or feedback please feel free to contact us. We're here to help. You can send us an e-mail or call us on our phone number. Thank you, let's meet in the world of delicious food!
+E-Mail: tugbaaturkeer@eniyisinerede.com
+Phone Number: 0505-491-70-70
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
